@@ -1,0 +1,24 @@
+Javascipt function:
+1. Function declaration: 
+function example() {
+};
+2. Function expression:
+function example = function() {
+};
+3. Anonymous function:
+function() {
+};
+4. IIFE:
+(function(){
+})();
+5. Javacript prototype inheritance by function contruction:
+function person(name, age) {
+	this.name = name;
+	this.age = age;
+}
+var joe = new person(“joe”, 22);
+var jane = new person(“jane”, 20);
+person.prototype.city = “NY”;
+
+
+
